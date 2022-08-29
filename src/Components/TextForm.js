@@ -9,8 +9,6 @@ export default function TextForm(props) {
 
   const handleOnChange = (e) => {
     setText(e.target.value);
-
-    
   };
   const handleLoClick = () => {
     let newText = text.toLowerCase();

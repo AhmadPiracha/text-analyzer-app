@@ -4,12 +4,6 @@ import Navbar from "./Components/Navbar";
 import TextForm from "./Components/TextForm";
 import React, { useState } from "react";
 import Alert from "./Components/Alert";
-// import {
-//   BrowserRouter as Router,
-//   Routes,
-//   Route,
-//   // Link
-// } from "react-router-dom";
 
 function App() {
   const [mode, setMode] = useState("light"); // dark mode enable or disable
@@ -43,14 +37,6 @@ function App() {
       <Alert alert={alert} />
 
       <div className="container my-3">
-        {/* <Routes> */}
-        {/* <Route exact path="/" element={ */}
-        {/* <TextForm showAlert={showAlert} heading="Enter Text" mode={mode}/> */}
-        {/* } */}
-        {/* /> */}
-        {/* <Route exact path="/about" element={<About />} /> */}
-        {/* </Routes> */}
-
         <TextForm showAlert={showAlert} heading="Enter Text" mode={mode} />
       </div>
       {/* </Router> */}
